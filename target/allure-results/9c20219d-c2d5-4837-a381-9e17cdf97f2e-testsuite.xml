@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1528935296028" stop="1528935309002" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify invalid login in mobile</name>
+    <title>Verify invalid login in mobile</title>
+    <test-cases>
+        <test-case start="1528935296071" stop="1528935296078" status="passed">
+            <name>Given I am on mobile login page</name>
+            <title>Given I am on mobile login page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30662@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528935308978" stop="1528935308979" status="passed">
+            <name>When I sign in using username mohammad@technosoftacademy.io and password Test12345 in mobile app</name>
+            <title>When I sign in using username mohammad@technosoftacademy.io and password Test12345 in mobile app</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30662@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528935308987" stop="1528935308997" status="pending">
+            <name>Then I verify invalid login error message on mobile app</name>
+            <title>Then I verify invalid login error message on mobile app</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30662@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528935309000" stop="1528935309000" status="pending">
+            <name>Scenario: Verify invalid login in mobile</name>
+            <title>Scenario: Verify invalid login in mobile</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30662@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify invalid login in mobile"/>
+        <label name="feature" value="Mobile Login Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

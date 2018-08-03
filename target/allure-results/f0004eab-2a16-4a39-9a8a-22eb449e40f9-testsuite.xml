@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1532993040920" stop="1532993044505" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User should be able to reset filter and verify all options are enabled</name>
+    <title>User should be able to reset filter and verify all options are enabled</title>
+    <test-cases>
+        <test-case start="1532993040959" stop="1532993040978" status="passed">
+            <name>Given I am on a home page of the app</name>
+            <title>Given I am on a home page of the app</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="faz-Latitude-E6420"/>
+                <label name="thread" value="8307@faz-Latitude-E6420.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532993041518" stop="1532993041518" status="passed">
+            <name>When I click on filter button</name>
+            <title>When I click on filter button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="faz-Latitude-E6420"/>
+                <label name="thread" value="8307@faz-Latitude-E6420.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532993042334" stop="1532993042334" status="passed">
+            <name>And I disable "Angular" option</name>
+            <title>And I disable "Angular" option</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="faz-Latitude-E6420"/>
+                <label name="thread" value="8307@faz-Latitude-E6420.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532993043039" stop="1532993043039" status="passed">
+            <name>And I click on All Reset Filer button</name>
+            <title>And I click on All Reset Filer button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="faz-Latitude-E6420"/>
+                <label name="thread" value="8307@faz-Latitude-E6420.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1532993044501" stop="1532993044501" status="passed">
+            <name>Then I verify all options are enabled</name>
+            <title>Then I verify all options are enabled</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="faz-Latitude-E6420"/>
+                <label name="thread" value="8307@faz-Latitude-E6420.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="User should be able to reset filter and verify all options are enabled"/>
+        <label name="feature" value="User should be able filter options"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
