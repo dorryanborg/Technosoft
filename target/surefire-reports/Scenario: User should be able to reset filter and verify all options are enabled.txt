@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: User should be able to reset filter and verify all options are enabled
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.536 sec - in Scenario: User should be able to reset filter and verify all options are enabled

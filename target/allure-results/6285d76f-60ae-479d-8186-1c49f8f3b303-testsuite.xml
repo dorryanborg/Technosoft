@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1528935213885" stop="1528935213943" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify invalid login in mobile</name>
+    <title>Verify invalid login in mobile</title>
+    <test-cases>
+        <test-case start="1528935213910" stop="1528935213928" status="broken">
+            <name>Given I am on mobile login page</name>
+            <title>Given I am on mobile login page</title>
+            <failure>
+                <message>NoSuchElementException: Unable to locate the Element using: Located by Locator map: 
+- native content: "By.chained({By.AccessibilityId: Open drawer menu})" 
+- html content: "by id or name "mainMenu""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'mmuntakim', ip: '2604:2000:f214:4600:a925:d7e0:6b36:851c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_172'
+Driver info: driver.version: unknown</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: Unable to locate the Element using: Located by Locator map: 
+- native content: "By.chained({By.AccessibilityId: Open drawer menu})" 
+- html content: "by id or name "mainMenu""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'mmuntakim', ip: '2604:2000:f214:4600:a925:d7e0:6b36:851c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at framework.MobileBasePage.tapOn(MobileBasePage.java:38)
+	at framework.mobile_pages.LandingPage.tapOnMainMenuButton(LandingPage.java:25)
+	at stepdefinition.MobileLoginSD.iAmOnmobileLoginPage(MobileLoginSD.java:17)
+	at ✽.Given I am on mobile login page(mobile-login.feature:6)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30391@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528935213935" stop="1528935213936" status="pending">
+            <name>When I sign in using username mohammad@technosoftacademy.io and password Test12345 in mobile app</name>
+            <title>When I sign in using username mohammad@technosoftacademy.io and password Test12345 in mobile app</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30391@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528935213938" stop="1528935213938" status="pending">
+            <name>Then I verify invalid login error message on mobile app</name>
+            <title>Then I verify invalid login error message on mobile app</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30391@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528935213940" stop="1528935213940" status="pending">
+            <name>Scenario: Verify invalid login in mobile</name>
+            <title>Scenario: Verify invalid login in mobile</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="mmuntakim"/>
+                <label name="thread" value="30391@mmuntakim.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify invalid login in mobile"/>
+        <label name="feature" value="Mobile Login Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
