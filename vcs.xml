@@ -6,7 +6,12 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="sullah5577" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/sullah5577/CucumberBddProject.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="$USER_HOME$/Desktop" />
   </component>
 </application>
