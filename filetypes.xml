@@ -1,9 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="screenshots" type="Image" />
       <mapping pattern="darkskyVerifyTempTimeLine.feature" type="PLAIN_TEXT" />
+      <mapping pattern="orders.feature" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
